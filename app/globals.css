@@ -145,7 +145,7 @@ h2 em { color: #ff5a00; font-style: normal; }
 .gallery-actions { display: flex; align-items: center; justify-content: flex-end; gap: 26px; }
 .gallery-instagram { display: inline-flex; align-items: center; gap: 10px; border-bottom: 1px solid #555; padding-bottom: 7px; color: #e5e1dc; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
 .gallery-instagram svg { color: #ff5a00; }
-.gallery-lightbox { width: min(1040px, calc(100vw - 32px)) !important; max-width: none !important; height: calc(100vh - 32px); display: block !important; overflow: hidden; border: 1px solid #333 !important; border-radius: 0 !important; background: #090909 !important; color: #f6f3ee !important; padding: 42px 62px 34px !important; box-shadow: 0 35px 100px rgba(0,0,0,.7) !important; }
+.gallery-lightbox { width: min(1040px, calc(100vw - 32px)) !important; max-width: none !important; height: calc(100vh - 32px); display: block !important; overflow: hidden; border: 1px solid #333 !important; border-radius: 0 !important; background: #090909 !important; color: #f6f3ee !important; padding: 42px 20px 20px !important; box-shadow: 0 35px 100px rgba(0,0,0,.7) !important; }
 .gallery-lightbox [data-slot='dialog-close'] { top: 12px !important; right: 12px !important; z-index: 4; border: 1px solid #3a3a3a !important; border-radius: 0 !important; background: #111 !important; color: #f6f3ee !important; }
 .gallery-lightbox [data-slot='dialog-close']:hover { border-color: #ff5a00 !important; color: #ff5a00 !important; }
 .gallery-lightbox-title { position: absolute; top: 17px; left: 22px; z-index: 3; color: #8c8c8c; font-family: var(--font-display); font-size: 18px !important; font-weight: 400 !important; letter-spacing: .09em; text-transform: uppercase; }
