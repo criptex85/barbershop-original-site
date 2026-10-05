@@ -96,7 +96,7 @@ const gallerySlots: Array<{
 );
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>('ru');
+  const [language, setLanguage] = useState<Language>('es');
   const [activeGalleryIndex, setActiveGalleryIndex] = useState<number | null>(null);
   const t = translations[language];
 
