@@ -150,7 +150,7 @@ h2 em { color: #ff5a00; font-style: normal; }
 .gallery-lightbox [data-slot='dialog-close']:hover { border-color: #ff5a00 !important; color: #ff5a00 !important; }
 .gallery-lightbox-title { position: absolute; top: 17px; left: 22px; z-index: 3; color: #8c8c8c; font-family: var(--font-display); font-size: 18px !important; font-weight: 400 !important; letter-spacing: .09em; text-transform: uppercase; }
 .gallery-lightbox-stage { width: 100%; height: 100%; display: grid; place-items: center; overflow: hidden; background: #101010; }
-.gallery-lightbox-stage > img { width: auto; height: auto; max-width: 100%; max-height: 100%; object-fit: contain; }
+.gallery-lightbox-stage > img { width: auto !important; height: auto !important; max-width: 92% !important; max-height: 92% !important; object-fit: contain !important; }
 .gallery-lightbox-placeholder { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; background: linear-gradient(145deg, transparent 0 49%, rgba(255,90,0,.08) 49% 49.4%, transparent 49.4% 100%), radial-gradient(circle at 76% 20%, rgba(255,90,0,.12), transparent 25%), #101010; color: #555; }
 .gallery-lightbox-placeholder svg { color: #ff5a00; }
 .gallery-lightbox-placeholder strong { color: #252525; font-family: var(--font-display); font-size: clamp(130px, 22vw, 290px); font-weight: 400; line-height: .7; }
